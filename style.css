@@ -1,59 +1,270 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-*{
+
+* {
     box-sizing: border-box;
 }
-body{
+
+body {
     margin: 0;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
 }
-.container{
-    width: 1280px;
+
+.container {
+    width: 1600px;
     margin: 0 auto;
 }
 
-ul,li{
+ul,
+li {
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
-a{
+
+a {
     color: inherit;
     text-decoration: none;
 }
-.header-logo img{
+
+.header-logo img {
     width: 122px;
     height: 28px;
     position: absolute;
     margin-top: 24px;
+    margin-left: 150px;
 }
 
-.header_navbar{
+.header_navbar {
     display: flex;
+    margin-left: 150px;
 }
-.header_navbar>li>a{
-    padding: 0 20px ;
+
+.header_navbar>li>a {
+    padding: 0 20px;
     font-weight: 600;
     display: inline-block;
     position: relative;
     margin-top: 30px;
-    left: 701px;
+    left: 601px;
     color: #394149;
 }
-.nav-button{
+
+.nav-button {
     background: rgba(245, 138, 7, 0.1);
     border-radius: 30px;
     width: 173px;
     height: 52px;
-    margin-left: 1250px;
+    margin-left: 1300px;
     margin-top: -35px;
     line-height: 50px;
 
 }
-.nav-button a{
+
+.nav-button a {
     color: #f58a07;
     display: flex;
     justify-content: center;
 }
 
+.bigpic {
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    margin-left: 200px;
+}
 
+.bigpic img {
+    border-radius: 20px;
+}
+
+.credit img {
+    position: absolute;
+    left: 584px;
+    top: 870px;
+}
+
+.credit p {
+    position: absolute;
+    left: 630px;
+    top: 855px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #394149;
+}
+
+.titlemn h1 {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    position: absolute;
+    width: 752px;
+    height: 216px;
+    left: 584px;
+    top: 910px;
+    color: #1D3444;
+}
+
+.maintxt p {
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    width: 752px;
+    height: 168px;
+    left: 584px;
+    top: 1195px;
+    color: #5B5B5B;
+}
+
+.second-title h2 {
+    position: absolute;
+    width: 752px;
+    height: 168px;
+    left: 584px;
+    top: 1739px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    color: #0D1317;
+}
+
+.secondtxt p {
+    position: absolute;
+    width: 752px;
+    height: 112px;
+    left: 584px;
+    top: 1970px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #5B5B5B;
+}
+
+#footer {
+    background-color: #063255;
+    position: relative;
+    height: 463px;
+    margin-top: 1600px;
+    margin-bottom: 0;
+    clear: both;
+}
+
+.ftcontainer {
+    width: 1600px;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+.ftcontainer img {
+    margin-top: 80px;
+}
+
+.bespoke {
+    overflow-wrap: break-word;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.03em;
+    margin-top: 32px;
+}
+
+.icons {
+    margin-top: 30px;
+
+}
+
+i {
+    padding: 10px;
+}
+
+.copyright {
+    margin-top: 82.56px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    margin-top: -305px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+    margin-left: -100px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+
+.footer-col ul li {
+    line-height: 40px;
+}
+
+.footer-coll h4 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.email {
+    background-color: #ffffff;
+    border-radius: 31px;
+}
+
+.email p {
+    color: #9C9C9C;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.36px;
+    padding-left: 30px;
+    padding-right: 200px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.sub p {
+    font-weight: 500;
+    line-height: 19.36px;
+    position: absolute;
+    left: 1395px;
+    top: 180px;
+    background-color: #F58A07;
+    border-radius: 31px;
+    padding-left: 32px;
+    padding-bottom: 18px;
+    padding-top: 17px;
+    padding-right: 32px;    
+}
+.priv{
+    margin-left: 1280px; 
+    margin-top: -35px;   
+}
+.terms{
+    margin-left: 1420px; 
+    margin-top: -25px;  
+}
+.left img{
+    position: relative;
+    top: 36px;
+}
+.right img{
+    position: absolute;
+    bottom: 135px;
+    right: 0px;
+    
+}
