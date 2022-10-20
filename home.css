@@ -8,7 +8,7 @@
     justify-content: space-around;
 }
 
-.smth {
+.navbar {
     display: flex;
     align-items: center;
 }
@@ -31,8 +31,11 @@
     justify-content: center;
     background: rgba(245, 138, 7, 0.1);
     border-radius: 31px;
-    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     margin-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .button a {
@@ -40,7 +43,7 @@
     font-weight: 600;
 }
 
-.BG {
+.background {
     background-color: #DCEAF5;
     margin-top: 20px;
 }
@@ -53,6 +56,7 @@ header {
 .header-text{
     width: 580px;
 }
+
 
 .header-text h1 {
     font-weight: 600;
@@ -67,16 +71,15 @@ header {
     font-weight: 500;
     font-size: 18px;
 }
-.buttons{
-    margin-top: 30px;
-}
+
 .main-button {
     display: inline-block;
     background: #F58A07;
     border-radius: 27px;
-    padding: 20px;
+    padding: 15px;
     padding-left: 40px;
     padding-right: 40px;
+    margin-top: 32px;
 }
 
 .main-button>a {
@@ -88,7 +91,9 @@ header {
     display: inline-block;
     color: #1D3444;
     font-weight: 600;
-    margin-left: 0px;
+    margin-left: 0;
+    padding-top: 50px;
+    padding-left: 40px;
 }
 
 .txt {
@@ -96,5 +101,186 @@ header {
     font-size: 18px;
     line-height: 30px;
     color: rgba(57, 65, 73, 0.5);
-    padding: 30px;
+    padding-left: 10px;
+    padding-top: 56px;
+}
+
+.header-text h1 {
+    padding-bottom: 12px;
+}
+
+.logos {
+    padding-top: 27px;
+}
+
+.second {
+    padding-left: 45px;
+}
+
+.third {
+    padding-left: 45px;
+}
+.header-img img{
+    float: right;
+}
+
+.maintext{
+    width: 750px;
+}
+
+.maintext h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    color: #1D3444;
+    margin-top: 83px;
+}
+
+.maintext p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5B5B5B;
+    margin-top: 27px;
+}
+.cards{
+    display: flex;
+    width: 400px;
+}
+.cards img{
+    border-radius: 20px;
+}
+.first-card{
+    margin-top: 64px;
+}
+
+.first-card h3{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 106.5%;
+    color: #0D1317;
+    margin-top: 33px;
+}
+.first-card p{
+    margin-top: 17px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #5B5B5B;
+    margin-bottom: 24px;
+}
+.first-card a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 106.5%;
+    color: #F58A07;
+}
+.arrow{
+    margin-left: 8px;
+}
+.second-card{
+    margin-top: 64px;
+    margin-left: 40px;
+}
+.second-card h3{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 106.5%;
+    color: #0D1317;
+    margin-top: 33px;
+}
+.second-card p{
+    margin-top: 17px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #5B5B5B;
+    margin-bottom: 24px;
+}
+.second-card a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 106.5%;
+    color: #F58A07;
+}
+.third-card{
+    margin-top: 64px;
+    margin-left: 40px;
+}
+.third-card h3{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 106.5%;
+    color: #0D1317;
+    margin-top: 33px;
+}
+.third-card p{
+    margin-top: 17px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #5B5B5B;
+    margin-bottom: 24px;
+}
+
+.third-card a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 106.5%;
+    color: #F58A07;
+}
+.bgcontainer{
+    width: 620px;
+}
+
+.bg{
+    background-color: #EDF7FF;
+    margin-top: 97px;
+}
+.bg-heading p{
+    padding-top: 96px;
+    color: #0D1317;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.03em;
+}
+.bgtxtcontainer{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.bg-text p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #1D3444;
+    
+}
+.card-container{
+    width: 401px;
+}
+.first_card{
+    background: #fff;
+    border-radius: 20px;
+    padding-left: 39px;
+}
+.first_card img{
+    padding-top: 48px;
+}
+.first_card .title{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: -0.03em;
+    padding-top: 32px;
+
+}
+.first_card .txt{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #5B5B5B;
+    padding-top: 16px;
 }
