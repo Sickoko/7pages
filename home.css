@@ -53,7 +53,7 @@ header {
     display: flex;
 }
 
-.header-text{
+.header-text {
     width: 580px;
 }
 
@@ -120,15 +120,16 @@ header {
 .third {
     padding-left: 45px;
 }
-.header-img img{
+
+.header-img img {
     float: right;
 }
 
-.maintext{
+.maintext {
     width: 750px;
 }
 
-.maintext h2{
+.maintext h2 {
     font-weight: 600;
     font-size: 48px;
     line-height: 56px;
@@ -137,32 +138,36 @@ header {
     margin-top: 83px;
 }
 
-.maintext p{
+.maintext p {
     font-weight: 500;
     font-size: 18px;
     line-height: 30px;
     color: #5B5B5B;
     margin-top: 27px;
 }
-.cards{
+
+.cards {
     display: flex;
     width: 400px;
 }
-.cards img{
+
+.cards img {
     border-radius: 20px;
 }
-.first-card{
+
+.first-card {
     margin-top: 64px;
 }
 
-.first-card h3{
+.first-card h3 {
     font-weight: 500;
     font-size: 24px;
     line-height: 106.5%;
     color: #0D1317;
     margin-top: 33px;
 }
-.first-card p{
+
+.first-card p {
     margin-top: 17px;
     font-weight: 500;
     font-size: 16px;
@@ -170,52 +175,32 @@ header {
     color: #5B5B5B;
     margin-bottom: 24px;
 }
-.first-card a{
+
+.first-card a {
     font-weight: 500;
     font-size: 16px;
     line-height: 106.5%;
     color: #F58A07;
 }
-.arrow{
+
+.arrow {
     margin-left: 8px;
 }
-.second-card{
+
+.second-card {
     margin-top: 64px;
     margin-left: 40px;
 }
-.second-card h3{
+
+.second-card h3 {
     font-weight: 500;
     font-size: 24px;
     line-height: 106.5%;
     color: #0D1317;
     margin-top: 33px;
 }
-.second-card p{
-    margin-top: 17px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 28px;
-    color: #5B5B5B;
-    margin-bottom: 24px;
-}
-.second-card a{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 106.5%;
-    color: #F58A07;
-}
-.third-card{
-    margin-top: 64px;
-    margin-left: 40px;
-}
-.third-card h3{
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 106.5%;
-    color: #0D1317;
-    margin-top: 33px;
-}
-.third-card p{
+
+.second-card p {
     margin-top: 17px;
     font-weight: 500;
     font-size: 16px;
@@ -224,21 +209,56 @@ header {
     margin-bottom: 24px;
 }
 
-.third-card a{
+.second-card a {
     font-weight: 500;
     font-size: 16px;
     line-height: 106.5%;
     color: #F58A07;
 }
-.bgcontainer{
-    width: 620px;
+
+.third-card {
+    margin-top: 64px;
+    margin-left: 40px;
 }
 
-.bg{
+.third-card h3 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 106.5%;
+    color: #0D1317;
+    margin-top: 33px;
+}
+
+.third-card p {
+    margin-top: 17px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #5B5B5B;
+    margin-bottom: 24px;
+}
+
+.third-card a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 106.5%;
+    color: #F58A07;
+}
+
+.features {
     background-color: #EDF7FF;
     margin-top: 97px;
+    margin-bottom: 166px;
 }
-.bg-heading p{
+
+.feature-texts {
+    width: 100%;
+    display: flex;
+    gap: 40px;
+}
+
+.feature-heading p {
+    width: 619px;
     padding-top: 96px;
     color: #0D1317;
     font-weight: 600;
@@ -246,30 +266,35 @@ header {
     line-height: 44px;
     letter-spacing: -0.03em;
 }
-.bgtxtcontainer{
-    display: flex;
-    justify-content: end;
-    align-items: center;
-}
-.bg-text p{
+
+.feature-text {
+    font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 30px;
     color: #1D3444;
-    
+    padding-top: 102px;
 }
-.card-container{
-    width: 401px;
+
+.card-container {
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    padding-top: 64px;
+    padding-bottom: 96px;
 }
-.first_card{
+
+.first_card {
     background: #fff;
     border-radius: 20px;
-    padding-left: 39px;
+    padding: 39px 40px;
 }
-.first_card img{
+
+.first_card img {
     padding-top: 48px;
 }
-.first_card .title{
+
+.title {
     font-size: 24px;
     font-weight: 600;
     line-height: 26px;
@@ -277,10 +302,101 @@ header {
     padding-top: 32px;
 
 }
-.first_card .txt{
+
+.text {
     font-weight: 500;
     font-size: 16px;
     line-height: 28px;
     color: #5B5B5B;
     padding-top: 16px;
 }
+
+.second_card {
+    background: #fff;
+    border-radius: 20px;
+    padding-top: 40px;
+    padding-left: 38px;
+}
+
+.third_card {
+    background: #fff;
+    border-radius: 20px;
+    padding-top: 40px;
+    padding-left: 38px;
+}
+
+.first-text {
+    width: 596px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.second-text {
+    width: 510px;
+    padding-top: 32px;
+}
+
+.years {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    padding-top: 48px;
+    color: #F58A07;
+}
+.about_feature{
+    display: flex;
+}
+.about-feature_heading {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 106.5%;
+    padding-top: 16px;
+}
+
+.about-feature_text {
+    width: 264px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #5B5B5B;
+    padding-top: 16px;
+}
+
+.clients {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: #F58A07;
+}
+.second-feature{
+    padding-top: 48px;
+    padding-left: 26px;
+}
+
+.second-about_head {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 106.5%;
+    letter-spacing: -0.03em;
+    padding-top: 16px;
+}
+.second-feature_text{
+    width: 270px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #5B5B5B;
+    padding-top: 16px;
+}
+.img{
+    display: flex;
+    justify-content: end;  
+}
+
