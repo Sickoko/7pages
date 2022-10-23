@@ -47,118 +47,234 @@ header {
     margin-top: 30px;
     display: flex;
 }
-.blog__post{
-    margin-top: 126px;
-}
-.blog__image img{
-    border-radius: 20px;
-}
-.context{
-    margin-left: 264px;
-    margin-right: 264px;
-}
-
-.blog__header {
-    margin-top: 122px;
-}
-
-.blog-img {
-    padding-top: 80px;
-    display: flex;
-}
-
-.name {
-    padding-left: 8px;
-    padding-top: 5px;
-    font-family: 'Poppins';
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 32px;
-    letter-spacing: 0px;
-    text-align: left;
-    color:  #394149;
-    opacity: 0.87;
-}
-
-.date {
-    padding-left: 24px;
-    padding-top: 5px;
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 32px;
-    letter-spacing: 0px;
-    text-align: left;
-    color: #394149;
-    opacity: 0.87;
-}
-.texts{
-    margin-bottom: 128px;
-}
-.texts h1{
-    font-family: Poppins;
-    font-size: 64px;
+.heading{
     font-weight: 600;
+    font-size: 64px;
     line-height: 72px;
     letter-spacing: -0.03em;
-    text-align: left;
     color: #1D3444;
-    padding-top: 24px;
+    padding-top: 120px;
 }
-.first_text{
+.career_content{
+    width: 100%;
+    display: flex;
+}
+.left{
+    width: 50%;
+}
+.right{
+    width: 50%;
+    padding-left: 300px;
+}
+.head{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #0D1317;
+    padding-top: 64px;
+}
+.text{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5B5B5B; 
+    padding-top: 16px;
+}
+.head_right{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #0D1317;
+    padding-top: 64px;
+}
+.text_right{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5B5B5B; 
+    padding-top: 16px;
+}
+.career_bg{
+    background: rgba(193, 228, 255, 0.3);
+    border-radius: 20px;
+    padding: 68px 68px;
+    margin-top: 64px;
+}
+.career_main{
+    width: 100%;
+    display: flex;
+}
+.left_side{
+    width: 30%;
+}
+.right_side{
+    width: 70%;
+}
+.orange{
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #F58A07;
+}
+.heading1{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #0D1317;
+    padding-top: 40px;
+}
+.heading2{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #0D1317;
+    padding-top: 40px;
+    padding-bottom: 69px;
+}
+.right_side p{
     font-size: 16px;
     font-weight: 500;
     line-height: 28px;
     letter-spacing: 0em;
     text-align: left;
     color: #5B5B5B;
-    padding-top: 32px;
+    width: 100%;
 }
-.second_text{
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 28px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #5B5B5B;
-    padding-top: 24px;
+.apply_section{
+    margin-top: 128px;
 }
-.third_text{
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 28px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #5B5B5B;
-    padding-top: 24px;
-}
-.texts h3{
-    font-family: Poppins;
+.apply_heading h1{
     font-size: 48px;
     font-weight: 600;
     line-height: 56px;
     letter-spacing: -0.03em;
     text-align: left;
     color: #0D1317;
-    padding-top: 48px;
 }
-.fourth_text{
+.apply_input{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 51px;
+}
+.first_name{
+    background: rgba(210, 218, 237, 0.17);
+    border-radius: 27px;
+    padding-left: 32px;
+    padding-right: 513px;
+    padding-top: 17px;
+    padding-bottom: 18px;
+}
+.first_name a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9C9C9C;
+}
+.last_name{
+    background: rgba(210, 218, 237, 0.17);
+    border-radius: 27px;
+    padding-left: 32px;
+    padding-right: 514px;
+    padding-top: 17px;
+    padding-bottom: 18px;
+    margin-left: 24px;
+}
+.last_name a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9C9C9C;
+}
+.email{
+    background: rgba(210, 218, 237, 0.17);
+    border-radius: 27px;
+    padding-left: 32px;
+    padding-right: 536px;
+    padding-top: 17px;
+    padding-bottom: 18px;
+    margin-top: 24px;
+}
+.email a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9C9C9C;
+}
+.mobile_no{
+    background: rgba(210, 218, 237, 0.17);
+    border-radius: 27px;
+    padding-left: 32px;
+    padding-right: 518px;
+    padding-top: 17px;
+    padding-bottom: 18px;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+.mobile_no a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9C9C9C;
+}
+.big{
+    background: rgba(210, 218, 237, 0.17);
+    border-radius: 27px;
+    padding-left: 32px;
+    padding-right: 911px;
+    padding-top: 29px;
+    padding-bottom: 167px;
+    margin-top: 24px;
+}
+.big a{
+    font-family: 'Inter';
     font-size: 16px;
     font-weight: 500;
-    line-height: 28px;
+    line-height: 19px;
     letter-spacing: 0em;
     text-align: left;
-    color: #5B5B5B;
-    padding-top: 24px;
+    color: #9C9C9C;
 }
-.fifth_text{
+.submit_btn{
+    background: #F58A07;
+    border-radius: 31px;
+    padding-left: 32px;
+    padding-top: 19px;
+    padding-right: 32px;
+    padding-bottom: 19px;
+    margin-top: 32px;
+    margin-bottom: 128px;
+}
+.submit_btn a{
+    font-family: 'Inter';
     font-size: 16px;
-    font-weight: 500;
-    line-height: 28px;
-    letter-spacing: 0em;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0px;
     text-align: left;
-    color: #5B5B5B;
-    padding-top: 24px;
+    color: #FFFFFF;
 }
 footer{
     background-color: #063255;
@@ -472,4 +588,4 @@ footer{
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
-  }    
+  }   
