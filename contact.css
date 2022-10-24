@@ -1,51 +1,50 @@
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .head-container {
-    justify-content: space-around;
+  justify-content: space-around;
 }
 
 .navbar {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .rightnav {
-    display: flex;
+  display: flex;
 }
 
 .rightnav>li>a {
-    display: inline-block;
-    position: relative;
-    padding: 0 20px;
-    color: #394149;
-    font-weight: 600;
-    font-size: 16px;
+  display: inline-block;
+  padding: 0 13px;
+  color: #394149;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 .button {
-    display: flex;
-    justify-content: center;
-    background: rgba(245, 138, 7, 0.1);
-    border-radius: 31px;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-left: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  background: rgba(245, 138, 7, 0.1);
+  border-radius: 31px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .button a {
-    color: #f58a07;
-    font-weight: 600;
+  color: #f58a07;
+  font-weight: 600;
 }
 
 header {
-    margin-top: 30px;
-    display: flex;
+  margin-top: 30px;
+  display: flex;
 }
 .career-head{
     width: 100%;
