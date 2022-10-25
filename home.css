@@ -596,8 +596,11 @@ header {
 
 }
 
-.cta__left {
+
+.cta__left img{
   object-fit: cover;
+  width: 950px;
+  height: 518px;
 }
 
 .cta__right {
@@ -615,6 +618,7 @@ header {
   color: #FFFFFF;
   padding-left: 128px;
   padding-top: 128px;
+  width: 70%;
 }
 
 .cta__btn {
