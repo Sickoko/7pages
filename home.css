@@ -19,6 +19,7 @@
 
 .rightnav>li>a {
   display: inline-block;
+  position: relative;
   padding: 0 20px;
   color: #394149;
   font-weight: 600;
@@ -33,13 +34,32 @@
   padding-left: 30px;
   padding-right: 30px;
   margin-left: 30px;
-  padding-top: 10px;  
+  padding-top: 10px;
   padding-bottom: 10px;
 }
 
-.button a {
-  color: #f58a07;
+
+.button>a{
   font-weight: 600;
+  size: 16px;
+  color: #F58A07;
+
+}
+
+.button a:hover{
+  color: #fff;
+}
+
+.button:hover{
+  background-color: #F58A07;
+}
+
+
+
+.right-nav a:hover{
+  color: #F58A07;
+  transition: 0.3s all;
+
 }
 
 .background {
@@ -85,6 +105,9 @@ header {
   color: #fff;
   font-weight: 600;
 }
+.main-button:hover{
+  background:rgba(255, 140, 0, 0.5);
+}
 
 .secondary-button {
   display: inline-block;
@@ -94,7 +117,9 @@ header {
   padding-top: 50px;
   padding-left: 40px;
 }
-
+.secondary-button:hover{
+  color: #f58a07;
+}
 .txt {
   font-weight: 400;
   font-size: 18px;
@@ -181,9 +206,18 @@ header {
   line-height: 106.5%;
   color: #f58a07;
 }
+.first-card a:hover{
+  color: #e4ae6c;
+}
+.first-card::after{
+  content: "⟶"; 
+  color: #f58a07;
+}
 
-.arrow {
-  margin-left: 8px;
+.first-card:hover::after{
+  color: #f5a748;
+  margin-left: 10px;
+  transition: 0.2s all;
 }
 
 .second-card {
@@ -214,7 +248,19 @@ header {
   line-height: 106.5%;
   color: #f58a07;
 }
+.second-card a:hover{
+  color: #e4ae6c;
+}
+.second-card::after{
+  content: "⟶"; 
+  color: #f58a07;
+}
 
+.second-card:hover::after{
+  color: #f5a748;
+  margin-left: 10px;
+  transition: 0.2s all
+}
 .third-card {
   margin-top: 64px;
   margin-left: 40px;
@@ -242,6 +288,25 @@ header {
   font-size: 16px;
   line-height: 106.5%;
   color: #f58a07;
+}
+
+.third-card a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 106.5%;
+  color: #f58a07;
+}
+.third-card a:hover{
+  color: #e4ae6c;
+}
+.third-card::after{
+  content: "⟶"; 
+  color: #f58a07;
+}
+.third-card:hover::after{
+  color: #f5a748;
+  margin-left: 10px;
+  transition: 0.2s all
 }
 
 .features {
@@ -441,6 +506,13 @@ header {
   font-size: 16px;
   line-height: 24px;
   color: #F58A07;
+} 
+.first-tab a:hover{
+  color: #fff
+}
+
+.first-tab:hover{
+  background: #f58a07;
 }
 
 .second-tab,
@@ -461,7 +533,18 @@ header {
   line-height: 24px;
   color: rgba(6, 50, 85, 0.3);
 }
-
+.second-tab:hover{
+  border-color: #292c30;
+}
+.second-tab a:hover{
+ color: #292c30;
+}
+.third-tab:hover{
+  border-color: #292c30;
+}
+.third-tab a:hover{
+ color: #292c30;
+}
 .left-content {
   display: inline-block;
   width: 50%;
@@ -491,7 +574,18 @@ header {
   color: #F58A07;
   padding-top: 40px;
 }
+.orange-button a:hover{
+  color: #e4ae6c;
+}
+.orange-button::after{
+  content: "⟶"; 
+}
 
+.orange-button:hover::after{
+  color: #f5a748;
+  margin-left: 10px;
+  transition: 0.2s all;
+}
 .main-img {
   padding-left: 110px;
 }
@@ -542,7 +636,12 @@ header {
   color: #F58A07;
   padding-top: 40px;
 }
-
+.cta__btn:hover{
+  background: rgb(241, 182, 110);
+}
+.cta__btn a:hover{
+  color: #fff;
+}
 .video__section {
   margin-top: 128px;
 }
@@ -680,6 +779,18 @@ header {
   padding-top: 24px;
   padding-bottom: 32px;
 }
+.btn a:hover{
+  color: #e4ae6c;
+}
+.btn::after{
+  content: "⟶"; 
+  color: #f58a07;
+}
+.btn:hover::after{
+  color: #f5a748;
+  margin-left: 10px;
+  transition: 0.2s all
+}
 
 footer{
   background-color: #063255;
@@ -807,11 +918,11 @@ footer{
   
 }    
   
-.footer-second-list1{
+.second-list{
   margin-top: -20px;
 }
 
-.footer-second-list1 h4{
+.second-list1 h4{
   font-size: 18px;
   font-weight: 600;
   line-height: 27px;
@@ -819,12 +930,12 @@ footer{
   text-align: left;
   
 }    
-.footer-second-list2{
+.second-list2{
   
   margin-top: 26px;
   
 }    
-.footer-second-list2 a{
+.second-list2 a{
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -832,11 +943,11 @@ footer{
   text-align: left;
   
 }    
-.footer-second-list3{
+.second-list3{
    
   margin-top: 16px; 
 }    
-.footer-second-list3 a{
+.second-list3 a{
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -857,47 +968,49 @@ footer{
   margin-top: -20px;
     
 }    
-
-.footer-join_header p{
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 27px;
-  letter-spacing: 0em;
-  text-align: left;
-  
-}    
-.first-footer_btn{
-  height: 54px;
-  width: 342px;
-  border-radius: 31px;
-  background-color: #FFFFFF;
+input{
+  font-size: 16px;
   margin-top: 24px;
-}    
-
-.footer-btn1{
-  height: 19px;
-  width: 222px;
-  padding: 15px 32px;
-  
-}    
-
-.footer-btn1 a{
+}
+input[type="text"]
+{
+  background:#fff;
+  width: 342px; 
+  height: 54px;
+  border:none;
+  outline: none;
+  padding: 0 25px;
+  border-radius: 31px;
+}
+input[placeholder]{
+  font-family: Inter;
   font-size: 16px;
   font-weight: 500;
   line-height: 19px;
   letter-spacing: 0em;
   text-align: left;
   color: #9C9C9C;
-  
-}    
-.second-footer_btn{
-  height: 54px;
-  width: 156px;
+}
+input[type="submit"]{
+  position: relative;
+  background: #F58A07;
   border-radius: 31px;
-  background-color: #F58A07;
-  margin-top: 16px;
-  padding: 15px 32px;
-}    
+  border:none;
+  outline: none;
+  width: 156px;
+  height: 54px;
+}
+input[value="Subscribe"]{
+  color: #fff;
+  padding-left: 32px; 
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+  cursor: pointer;
+}
+
 .footer-join-btn2{
   height: 19px;
   width: 92px;
@@ -994,3 +1107,13 @@ footer{
   letter-spacing: 0em;
   text-align: left;
 }    
+.footer-list a:hover{
+  color: #F58A07;
+}
+
+.footer-bottom a:hover{
+  color: #F58A07;
+}
+.second-footer_btn2 a{
+color: #fff;
+}

@@ -1,45 +1,65 @@
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .head-container {
-    justify-content: space-around;
+  justify-content: space-around;
 }
 
 .navbar {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .rightnav {
-    display: flex;
+  display: flex;
 }
 
 .rightnav>li>a {
-    display: inline-block;
-    padding: 0 20px;
-    color: #394149;
-    font-weight: 600;
-    font-size: 16px;
+  display: inline-block;
+  position: relative;
+  padding: 0 20px;
+  color: #394149;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 .button {
-    display: flex;
-    justify-content: center;
-    background: rgba(245, 138, 7, 0.1);
-    border-radius: 31px;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-left: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  background: rgba(245, 138, 7, 0.1);
+  border-radius: 31px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-.button a {
-    color: #f58a07;
-    font-weight: 600;
+
+.button>a{
+  font-weight: 600;
+  size: 16px;
+  color: #F58A07;
+
+}
+
+.button a:hover{
+  color: #fff;
+}
+
+.button:hover{
+  background-color: #F58A07;
+}
+
+
+
+.right-nav a:hover{
+  color: #F58A07;
+  transition: 0.3s all;
+
 }
 
 header {
@@ -113,6 +133,12 @@ header {
     letter-spacing: 0px;
     text-align: left;
     color: #fff;
+}
+.btn:hover{
+  background: rgba(245, 138, 7, 0.1);
+}
+.btn a:hover{
+  color: #F58A07;
 }
 
 .img {
@@ -328,6 +354,18 @@ header {
     padding-top: 24px;
     padding-bottom: 32px;
   }
+  .latest__btn a:hover{
+    color: #e4ae6c;
+  }
+  .latest__btn::after{
+    content: "⟶"; 
+  }
+  
+  .latest__btn:hover::after{
+    color: #e4ae6c;
+    margin-left: 10px;
+    transition: 0.2s all;
+  }
   footer{
     background-color: #063255;
   }
@@ -454,11 +492,11 @@ header {
     
   }    
     
-  .footer-second-list1{
+  .second-list{
     margin-top: -20px;
   }
   
-  .footer-second-list1 h4{
+  .second-list1 h4{
     font-size: 18px;
     font-weight: 600;
     line-height: 27px;
@@ -466,12 +504,12 @@ header {
     text-align: left;
     
   }    
-  .footer-second-list2{
+  .second-list2{
     
     margin-top: 26px;
     
   }    
-  .footer-second-list2 a{
+  .second-list2 a{
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -479,11 +517,11 @@ header {
     text-align: left;
     
   }    
-  .footer-second-list3{
+  .second-list3{
      
     margin-top: 16px; 
   }    
-  .footer-second-list3 a{
+  .second-list3 a{
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -504,47 +542,49 @@ header {
     margin-top: -20px;
       
   }    
-  
-  .footer-join_header p{
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 27px;
-    letter-spacing: 0em;
-    text-align: left;
-    
-  }    
-  .first-footer_btn{
-    height: 54px;
-    width: 342px;
-    border-radius: 31px;
-    background-color: #FFFFFF;
+  input{
+    font-size: 16px;
     margin-top: 24px;
-  }    
-  
-  .footer-btn1{
-    height: 19px;
-    width: 222px;
-    padding: 15px 32px;
-    
-  }    
-  
-  .footer-btn1 a{
+  }
+  input[type="text"]
+  {
+    background:#fff;
+    width: 342px; 
+    height: 54px;
+    border:none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 31px;
+  }
+  input[placeholder]{
+    font-family: Inter;
     font-size: 16px;
     font-weight: 500;
     line-height: 19px;
     letter-spacing: 0em;
     text-align: left;
     color: #9C9C9C;
-    
-  }    
-  .second-footer_btn{
-    height: 54px;
-    width: 156px;
+  }
+  input[type="submit"]{
+    position: relative;
+    background: #F58A07;
     border-radius: 31px;
-    background-color: #F58A07;
-    margin-top: 16px;
-    padding: 15px 32px;
-  }    
+    border:none;
+    outline: none;
+    width: 156px;
+    height: 54px;
+  }
+  input[value="Subscribe"]{
+    color: #fff;
+    padding-left: 32px; 
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+    cursor: pointer;
+  }
+  
   .footer-join-btn2{
     height: 19px;
     width: 92px;
@@ -641,3 +681,13 @@ header {
     letter-spacing: 0em;
     text-align: left;
   }    
+  .footer-list a:hover{
+    color: #F58A07;
+  }
+  
+  .footer-bottom a:hover{
+    color: #F58A07;
+  }
+  .second-footer_btn2 a{
+  color: #fff;
+  }
